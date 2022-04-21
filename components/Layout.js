@@ -3,9 +3,9 @@ import Head from "next/head";
 const Layout = ({ props }) => (
     <div>
         <Head>
-            <title>{this.props.title}</title>
+            <title>{props.title}</title>
         </Head>
-        {this.props.children}
+        {props.children}
     </div>
 );
 
