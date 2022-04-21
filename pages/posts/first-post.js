@@ -1,9 +1,11 @@
-
+import Layout from "../../components/Layout";
 
 export default function FirstPost() {
     return (
         <>
-            <h1>First Post</h1>
+            <Layout title="First">
+                <h1>First Post</h1>
+            </Layout>
         </>
     );
 }
