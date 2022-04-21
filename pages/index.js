@@ -20,6 +20,16 @@ export default function Home() {
                         </div>
                     </div>
                 </Link>
+                <Link href="/posts/second-post">
+                    <div className={styles.grid}>
+                        <div className={styles.card}>
+                            <h3>second Post</h3>
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry...
+                            </p>
+                        </div>
+                    </div>
+                </Link>
             </main>
             <footer className={styles.footer}></footer>
         </div>
