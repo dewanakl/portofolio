@@ -13,7 +13,8 @@ const Custome404 = () => {
                 router.push('/');
                 clearInterval(time);
             }
-            number--;
+
+            setNumber(number--);
         }, 1000);
     }, []);
 
