@@ -1,10 +1,11 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
 import Layout from '../components/layout';
 
 const Custome404 = () => {
-    let number = 3;
     const router = useRouter();
+
+    const [number, setNumber] = useState(3);
 
     useEffect(() => {
         let time = setInterval(() => {
@@ -12,7 +13,7 @@ const Custome404 = () => {
                 router.push('/');
                 clearInterval(time);
             }
-            number = number - 1;
+            setNumber(number - 1);
         }, 1000);
     }, []);
 
