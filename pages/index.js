@@ -4,7 +4,7 @@ import styles from "../styles/Home.module.css";
 
 export default function Home() {
     return (
-        <Layout title="Home">
+        <Layout pageTitle="Home">
             {/* <div className={styles.container}>
                 <main className={styles.main}>
                     <h1 className={styles.title}>Welcome to My Blog</h1>
