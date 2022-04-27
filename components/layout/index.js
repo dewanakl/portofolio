@@ -1,12 +1,12 @@
 import Head from "next/head";
 
 function Layout(props) {
-    const { children } = props;
+    const { children, pageTitle } = props;
     return (
         <div>
-            {/* <Head>
-                <title>{props.title}</title>
-            </Head> */}
+            <Head>
+                <title>{pageTitle}</title>
+            </Head>
             {children}
         </div>
     );
