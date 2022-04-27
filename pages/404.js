@@ -1,25 +1,26 @@
 import { useEffect } from 'react';
 import { useRouter } from 'next/router';
+import Layout from '../components/layout';
 
 const Custome404 = () => {
     let number = 3;
     const router = useRouter();
 
     useEffect(() => {
-        let time = setTimeout(() => {
+        let time = setInterval(() => {
             if (number == 0) {
                 router.push('/');
-                clearTimeout(time);
+                clearInterval(time);
             }
-            number--;
+            number = number - 1;
         }, 1000);
     }, []);
 
     return (
-        <div>
+        <Layout pageTitle="tersesat">
             <h1>Anda Tersesat Masehzz</h1>
             <p>kembali pada {number}s</p>
-        </div>
+        </Layout>
     );
 }
 
