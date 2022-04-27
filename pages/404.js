@@ -2,13 +2,17 @@ import { useEffect } from 'react';
 import { useRouter } from 'next/router';
 
 const Custome404 = () => {
-    const number = 0;
+    let number = 3;
     const router = useRouter();
 
     useEffect(() => {
-        number = setTimeout(() => {
-            router.push('/');
-        }, 3000);
+        let time = setTimeout(() => {
+            if (number == 0) {
+                router.push('/');
+                clearTimeout(time);
+            }
+            number--;
+        }, 1000);
     }, []);
 
     return (
