@@ -1,11 +1,11 @@
-import Layout from "../../components/layout";
+import Layout from "../components/layout";
 import Link from "next/link";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
     return (
         <Layout pageTitle="Home">
-            {/* <div className={styles.container}>
+            <div className={styles.container}>
                 <main className={styles.main}>
                     <h1 className={styles.title}>Welcome to My Blog</h1>
                     <Link href="/posts/first-post">
@@ -40,8 +40,7 @@ export default function Home() {
                     </Link>
                 </main>
                 <footer className={styles.footer}></footer>
-            </div> */}
-            <p>lorem</p>
+            </div>
         </Layout>
     );
 }
