@@ -9,9 +9,9 @@ const Custome404 = () => {
 
     useEffect(() => {
         let time = setInterval(() => {
-            if (number == 0) {
-                router.push('/');
+            if (number == 1) {
                 clearInterval(time);
+                router.push('/');
             }
 
             setNumber(number--);
