@@ -7,6 +7,7 @@ export default function MyApp({ Component, pageProps }) {
         <>
             <Head>
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <title>Portofolio Dewana</title>
             </Head>
             <Component {...pageProps} />
             <Script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" />
