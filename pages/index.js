@@ -5,7 +5,7 @@ const Index = () => (
         <nav className="navbar navbar-expand-lg navbar-dark bg-primary bg-gradient fixed-top" id="sideNav">
             <a className="navbar-brand js-scroll-trigger" href="#page-top">
                 <span className="d-block d-lg-none">Portofolio</span>
-                <span className="d-none d-lg-block"><img className="img-fluid img-profile rounded-circle mx-auto mb-2" src="/profile.jpg" width={30} height={40} alt="..." /></span>
+                <span className="d-none d-lg-block"><img loading="lazy" className="img-fluid img-profile rounded-circle mx-auto mb-2" src="/profile.jpg" width={30} height={40} alt="..." /></span>
             </a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <i className="fas fa-hamburger"></i>
@@ -194,7 +194,7 @@ const Index = () => (
                         <div className="col-xl-6 mb-3">
                             <div className="card">
                                 <a target="_blank" rel="noopener noreferrer" href="https://www.dicoding.com/certificates/KEXLG982MZG2" className="imagehv">
-                                    <img src="dasar-js.png" alt="basic js" className="card-img-top imagesc" />
+                                    <img loading="lazy" src="dasar-js.png" alt="basic js" className="card-img-top imagesc" />
                                     <div className="link">
                                         <i className="fas fa-external-link-alt fa-fw btn-play" />
                                     </div>
@@ -204,7 +204,7 @@ const Index = () => (
                         <div className="col-xl-6 mb-3">
                             <div className="card">
                                 <a target="_blank" rel="noopener noreferrer" href="https://www.dicoding.com/certificates/JLX13O0L5P72" className="imagehv">
-                                    <img src="java.png" alt="basic java" className="card-img-top imagesc" />
+                                    <img loading="lazy" src="java.png" alt="basic java" className="card-img-top imagesc" />
                                     <div className="link">
                                         <i className="fas fa-external-link-alt fa-fw btn-play" />
                                     </div>
@@ -214,7 +214,7 @@ const Index = () => (
                         <div className="col-xl-6 mb-3">
                             <div className="card">
                                 <a target="_blank" rel="noopener noreferrer" href="https://www.dicoding.com/certificates/1RXYMOYN1XVM" className="imagehv">
-                                    <img src="gcloud.png" alt="basic gcloud" className="card-img-top imagesc" />
+                                    <img loading="lazy" src="gcloud.png" alt="basic gcloud" className="card-img-top imagesc" />
                                     <div className="link">
                                         <i className="fas fa-external-link-alt fa-fw btn-play" />
                                     </div>
@@ -224,7 +224,7 @@ const Index = () => (
                         <div className="col-xl-6 mb-3">
                             <div className="card">
                                 <a target="_blank" rel="noopener noreferrer" href="https://www.dicoding.com/certificates/KEXL3K530PG2" className="imagehv">
-                                    <img src="solid.png" alt="middle solid" className="card-img-top imagesc" />
+                                    <img loading="lazy" src="solid.png" alt="middle solid" className="card-img-top imagesc" />
                                     <div className="link">
                                         <i className="fas fa-external-link-alt fa-fw btn-play" />
                                     </div>
