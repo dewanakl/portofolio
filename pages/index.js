@@ -170,16 +170,16 @@ const Index = () => (
                     <h2 className="mb-5">PROJECTS</h2>
                     <ul style={{ fontSize: 20 }} className="mb-3">
                         <li>
-                            Kamu - Kamu PHP Framework dibuat secara native.
+                            <a href="https://github.com/dewanakl/Kamu" target="_blank" rel="noopener noreferrer">Kamu</a> - Kamu PHP Framework dibuat secara native.
                         </li>
                         <li>
-                            pplAgro - Repository mata kuliah pengembangan perangkat lunak untuk agroindustri modern.
+                            <a href="https://github.com/dewanakl/pplAgro" target="_blank" rel="noopener noreferrer">pplAgro</a> - Repository mata kuliah pengembangan perangkat lunak untuk agroindustri modern.
                         </li>
                         <li>
-                            My-File - Simple file storage, aplikasi untuk menyimpan file secara sederhana.
+                            <a href="https://github.com/dewanakl/My-File" target="_blank" rel="noopener noreferrer">My-File</a> - Simple file storage, aplikasi untuk menyimpan file secara sederhana.
                         </li>
                         <li>
-                            SiCafe - Sistem informasi pengelola transaksi cafe berbasis console menggunakan java.
+                            <a href="https://github.com/dewanakl/SiCafe" target="_blank" rel="noopener noreferrer">SiCafe</a> - Sistem informasi pengelola transaksi cafe berbasis console menggunakan java.
                         </li>
                     </ul>
                     <a style={{ fontSize: 18 }} className="mt-3" href="https://github.com/dewanakl?tab=repositories" target="_blank" rel="noopener noreferrer">View more</a>
