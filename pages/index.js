@@ -167,16 +167,16 @@ const Index = () => (
                     <h2 className="mb-5">PROJECTS</h2>
                     <ul className="mb-0">
                         <li>
-                            Kamu
+                            Kamu - Kamu PHP Framework dibuat secara native.
                         </li>
                         <li>
-                            pplAgro
+                            pplAgro - Repository mata kuliah pengembangan perangkat lunak untuk agroindustri modern.
                         </li>
                         <li>
-                            My-File
+                            My-File - Simple file storage, aplikasi untuk menyimpan file secara sederhana.
                         </li>
                         <li>
-                            SiCafe
+                            SiCafe - Sistem informasi pengelola transaksi cafe berbasis console menggunakan java.
                         </li>
                     </ul>
                 </div>
@@ -188,6 +188,8 @@ const Index = () => (
                     <h2 className="mb-5">Certifications</h2>
                     <a href="https://www.dicoding.com/certificates/KEXLG982MZG2"><img height={300} src="dasar-js.png" alt="basic js" /></a>
                     <a href="https://www.dicoding.com/certificates/JLX13O0L5P72"><img height={300} src="java.png" alt="basic java" /></a>
+                    <a href="https://www.dicoding.com/certificates/1RXYMOYN1XVM"><img height={300} src="gcloud.png" alt="basic gcloud" /></a>
+                    <a href="https://www.dicoding.com/certificates/KEXL3K530PG2"><img height={300} src="solid.png" alt="middle solid" /></a>
                 </div>
             </section>
         </div>
