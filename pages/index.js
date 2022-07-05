@@ -186,13 +186,8 @@ const Index = () => (
             <section className="resume-section" id="certifications">
                 <div className="resume-section-content">
                     <h2 className="mb-5">Certifications</h2>
-                    <ul className="fa-ul mb-0">
-                        <li>
-                            <span className="fa-li"><i className="fas fa-trophy text-warning" /></span>
-                            Google Analytics Certified Developer
-                            <img src="dasar-js.png" alt="basic js" />
-                        </li>
-                    </ul>
+                    <a href="https://www.dicoding.com/certificates/KEXLG982MZG2"><img height={300} src="dasar-js.png" alt="basic js" /></a>
+                    <a href="https://www.dicoding.com/certificates/JLX13O0L5P72"><img height={300} src="java.png" alt="basic java" /></a>
                 </div>
             </section>
         </div>
