@@ -7,7 +7,9 @@ const Index = () => (
                 <span className="d-block d-lg-none">Portofolio</span>
                 <span className="d-none d-lg-block"><img className="img-fluid img-profile rounded-circle mx-auto mb-2" src="/profile.jpg" width={30} height={40} alt="..." /></span>
             </a>
-            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span className="navbar-toggler-icon" /></button>
+            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <i className="fas fa-hamburger"></i>
+            </button>
             <div className="collapse navbar-collapse" id="navbarResponsive">
                 <ul className="navbar-nav">
                     <li className="nav-item">
@@ -75,7 +77,7 @@ const Index = () => (
             <section className="resume-section" id="interests">
                 <div className="resume-section-content">
                     <h2 className="mb-5">Interests</h2>
-                    <p className="lead mb-5">
+                    <p style={{ fontSize: 20 }} className="lead mb-5">
                         I am Dewana Kretarta Lokeswara. I am an Information Systems Student from the University of Jember. I have experience as a Junior
                         Web Developer. I have an interest in a career as a Backend Developer (Javascript and PHP). I&apos;m a fast learner and self-taught, I&apos;ve
                         been learning new technologies in recent years myself from viewing youtube and reading relevant sources.
@@ -91,12 +93,13 @@ const Index = () => (
                         <div className="flex-grow-1">
                             <h3 className="mb-0">Programmer Web Developer</h3>
                             <div className="subheading mb-3">Universitas Jember</div>
-                            <ul>
+                            <ul style={{ fontSize: 18 }}>
                                 <li>Build a website for agro-industry partners.</li>
                                 <li>Implement material such as activity diagrams and sequence diagrams in program code.</li>
                                 <li>Build a database based on the Entity Relationship Diagram that has been created by the designer.</li>
                                 <li>Deploy the finished website to the heroku web hosting service.</li>
                             </ul>
+                            <a style={{ fontSize: 20 }} href="http://thempe.herokuapp.com/" target="_blank" rel="noopener noreferrer">thempe.herokuapp.com</a>
                         </div>
                         <div className="flex-shrink-0"><span className="text-primary">Apr 2022 - Jul 2022</span></div>
                     </div>
@@ -165,7 +168,7 @@ const Index = () => (
             <section className="resume-section" id="projects">
                 <div className="resume-section-content">
                     <h2 className="mb-5">PROJECTS</h2>
-                    <ul className="mb-3">
+                    <ul style={{ fontSize: 20 }} className="mb-3">
                         <li>
                             Kamu - Kamu PHP Framework dibuat secara native.
                         </li>
@@ -179,7 +182,7 @@ const Index = () => (
                             SiCafe - Sistem informasi pengelola transaksi cafe berbasis console menggunakan java.
                         </li>
                     </ul>
-                    <a className="mt-3" href="https://github.com/dewanakl" target="_blank" rel="noopener noreferrer">Lihat Selengkapnya</a>
+                    <a style={{ fontSize: 18 }} className="mt-3" href="https://github.com/dewanakl?tab=repositories" target="_blank" rel="noopener noreferrer">View more</a>
                 </div>
             </section>
             <hr className="m-0" />
@@ -234,6 +237,5 @@ const Index = () => (
         </div>
     </>
 );
-
 
 export default Index;
