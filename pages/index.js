@@ -165,7 +165,7 @@ const Index = () => (
             <section className="resume-section" id="projects">
                 <div className="resume-section-content">
                     <h2 className="mb-5">PROJECTS</h2>
-                    <ul className="mb-0">
+                    <ul className="mb-3">
                         <li>
                             Kamu - Kamu PHP Framework dibuat secara native.
                         </li>
@@ -179,6 +179,7 @@ const Index = () => (
                             SiCafe - Sistem informasi pengelola transaksi cafe berbasis console menggunakan java.
                         </li>
                     </ul>
+                    <a className="mt-3" href="https://github.com/dewanakl" target="_blank" rel="noopener noreferrer">Lihat Selengkapnya</a>
                 </div>
             </section>
             <hr className="m-0" />
@@ -186,10 +187,48 @@ const Index = () => (
             <section className="resume-section" id="certifications">
                 <div className="resume-section-content">
                     <h2 className="mb-5">Certifications</h2>
-                    <a href="https://www.dicoding.com/certificates/KEXLG982MZG2"><img height={300} src="dasar-js.png" alt="basic js" /></a>
-                    <a href="https://www.dicoding.com/certificates/JLX13O0L5P72"><img height={300} src="java.png" alt="basic java" /></a>
-                    <a href="https://www.dicoding.com/certificates/1RXYMOYN1XVM"><img height={300} src="gcloud.png" alt="basic gcloud" /></a>
-                    <a href="https://www.dicoding.com/certificates/KEXL3K530PG2"><img height={300} src="solid.png" alt="middle solid" /></a>
+                    <div className="row mt-4">
+                        <div className="col-xl-6 mb-3">
+                            <div className="card">
+                                <a target="_blank" rel="noopener noreferrer" href="https://www.dicoding.com/certificates/KEXLG982MZG2" className="imagehv">
+                                    <img src="dasar-js.png" alt="basic js" className="card-img-top imagesc" />
+                                    <div className="link">
+                                        <i className="fas fa-external-link-alt fa-fw btn-play" />
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div className="col-xl-6 mb-3">
+                            <div className="card">
+                                <a target="_blank" rel="noopener noreferrer" href="https://www.dicoding.com/certificates/JLX13O0L5P72" className="imagehv">
+                                    <img src="java.png" alt="basic java" className="card-img-top imagesc" />
+                                    <div className="link">
+                                        <i className="fas fa-external-link-alt fa-fw btn-play" />
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div className="col-xl-6 mb-3">
+                            <div className="card">
+                                <a target="_blank" rel="noopener noreferrer" href="https://www.dicoding.com/certificates/1RXYMOYN1XVM" className="imagehv">
+                                    <img src="gcloud.png" alt="basic gcloud" className="card-img-top imagesc" />
+                                    <div className="link">
+                                        <i className="fas fa-external-link-alt fa-fw btn-play" />
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div className="col-xl-6 mb-3">
+                            <div className="card">
+                                <a target="_blank" rel="noopener noreferrer" href="https://www.dicoding.com/certificates/KEXL3K530PG2" className="imagehv">
+                                    <img src="solid.png" alt="middle solid" className="card-img-top imagesc" />
+                                    <div className="link">
+                                        <i className="fas fa-external-link-alt fa-fw btn-play" />
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
         </div>
